@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Help|Blinkt Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <h1 style="font-family:Verdana;">
+            Blinkt Dashboard Help
+        </h1>
+        <p style="font-family:Verdana;">
+            This page contains information on how to use this Blinkt Dashboard utility.
+        </p>
+        <h2 style="font-family:Verdana;">
+            Using the web dashboard
+        </h2>
+        <p style="font-family:Verdana;">
+            To use the web dashboard, you should head to <a href="/">the dashboard</a>. You will then see buttons with preset colours. By clicking on them, the Blinkt will change to that colour.
+        </p>
+        <h2 style="font-family:Verdana;">
+            Invoking through web requests
+        </h2>
+        <h3 style="font-family:Verdana;">
+            In a web browser
+        </h3>
+        <p style="font-family:Verdana;">
+            You can also invoke the Blinkt webapp through web requests.
+            <br>
+            You can head to <i>http://[YOURDEVICEIP]/[HEXVALUE]</i> in a web browser where you replace <i>[YOURDEVICEIP]</i> to the ip of the device running the webapp and <i>[HEXVALUE]</i> to a hexadecimal value of the colour you want to set the Blinkt to. You can find several <a href="https://www.google.com/search?q=color+picker">hex colour pickers</a> on the internet.
+            <br>
+            Please remeber to <strong>not</strong> include the <i>#</i> in the URL.
+        </p>
+        <h3 style="font-family:Verdana;">
+            HTTP GET Requests
+        </h3>
+        <p style="font-family:Verdana;">
+            You can also change the Blinkt to a certain colour by sending a HTTP GET request to the same URL as above.
+            <br>
+            <strong>PLEASE NOTE: </strong> HTTP POST requests are not currently supported.
+        </p>
+    </body>
+</html>

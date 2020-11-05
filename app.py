@@ -34,6 +34,11 @@ def clear():
     changeColour(0,0,0) # Call changeColour with three denary values
     return render_template('change.html') # Redirect to change.html
 
+# Function to show help page
+@app.route('/help')
+def help():
+    return render_template('help.html')
+
 # Start program
 if __name__ == "__main__": # Check if running as module or standalone
     app.run(debug=False, port=int('80'), host='0.0.0.0') # if running as a standalone app, start the flask webapp
